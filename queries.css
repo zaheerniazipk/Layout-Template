@@ -1,0 +1,50 @@
+/* Media Queries for Website Responsiveness */
+
+@media only screen and (max-width:600px){
+    
+    /* Navigation */
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+
+    /* Cover Image */
+    .cover {
+        width: 20rem;
+    }
+
+}
+
+@media only screen and (max-width:450px){
+    /* Navigation */
+    .main-nav {
+        font-size: 0.3em;
+        padding: 0;
+    }
+
+    /* Footer */
+    footer p {
+        font-size: 0.4em;
+    }
+}
+
+
+@media only screen and (max-width:350px){
+
+    * {
+        margin: 0 auto;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Reuseable CSS Classes */
+    .blue {
+        width: 100%;
+    }
+
+    /* Portfolio */
+    .box {
+        margin: 0;
+    }
+
+}
